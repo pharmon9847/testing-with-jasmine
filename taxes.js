@@ -22,3 +22,11 @@ function remove(arr, val) {
     return el !== val;
   });
 }
+
+let usernames = [];
+
+let input = document.getElementById('username');
+
+function submitForm() {
+  usernames.push(input.value);
+}
